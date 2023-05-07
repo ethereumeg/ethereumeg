@@ -1,10 +1,13 @@
 all: test build
 
 test:
-	deno test --unstable --allow-read test.js
+	deno test --unstable --allow-read utils/test.js
+
+build:
+	deno run --unstable --allow-read --allow-write utils/build.js
 
 install:
-	deno cache test.js
+	deno cache utils/*.js
 
 fmt:
-	deno fmt *.js
+	deno fmt utils/*.js
