@@ -1,5 +1,5 @@
 $schema: http://json-schema.org/draft-07/schema#
-$id: https://raw.githubusercontent.com/ethereumeg/ethereumeg/main/schema/founders.json
+$id: https://core.ethevents.club/schema/founders.yaml
 title: EthereumEG Founders
 type: array
 items:
@@ -19,12 +19,15 @@ items:
       type: object
       additionalProperties: false
       properties:
+        forum:
+          type: string
+          pattern: ^[A-Za-z0-9_-]+$
         twitter:
           type: string
           pattern: ^[A-Za-z0-9_]+$
         github:
           type: string
-          pattern: ^[A-Za-z0-9_]+$
+          pattern: ^[A-Za-z0-9_-]+$
         bluesky:
           type: string
           pattern: ^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\.)+[A-Za-z]{2,6}$

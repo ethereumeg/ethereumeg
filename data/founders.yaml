@@ -2,15 +2,18 @@
   caption: ETHBerlin, Protocol Berg (Department of Decentralization)
   refs:
     twitter: q9fcc
+    github: q9f
 
 - name: Ceci
   caption: ETHPrague
   refs:
     twitter: hyperalchemy
+    github: hyperlachemy
 
 - name: Chris
   refs:
     twitter: chrishobcroft
+    github: chrishobcroft
 
 - name: Erica Kang
   caption: ETHSeoul, BUIDL Asia (KryptoSeoul)
@@ -26,16 +29,20 @@
   caption: Devcon (Ethereum Foundation)
   refs:
     twitter: juandaveth
+    github: juandaveth
 
 - name: Limone
   caption: ETHRome (urbe.eth)
   refs:
+    forum: limone
     twitter: limone_eth
+    github: limone-eth
 
 - name: Manu Alzuru
   caption: ETHBarcelona (DoinGud)
   refs:
     twitter: manualzuru
+    github: manualzuru
 
 - name: matlemad
   caption: ETHTurin
@@ -46,16 +53,20 @@
   caption: ETHRome (urbe.eth, Web3Privacy Now)
   refs:
     twitter: PG_CDG
+    github: EclecticSamurai
 
 - name: Tree
   caption: ETHBrno (Gwei.cz, Web3Privacy Now)
   addr: "0xA1e2421A68f0208B75ACb0014a69E89b1F7492ea"
   refs:
+    forum: tree
     ens: treecz.eth
     twitter: treecz
     bluesky: tree.gwei.cz
+    github: burningtree
 
 - name: Wesley
   caption: Devcon (Ethereum Foundation)
   refs:
     twitter: wslyvh
+    github: wslyvh
