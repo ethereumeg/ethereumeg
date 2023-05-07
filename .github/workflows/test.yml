@@ -20,5 +20,5 @@ jobs:
       - name: Install deps
         run: make install
 
-      - name: Test Deno
+      - name: Test ethereumeg
         run: make test

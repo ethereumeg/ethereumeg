@@ -5,3 +5,6 @@ test:
 
 install:
 	deno cache test.js
+
+fmt:
+	deno fmt *.js
