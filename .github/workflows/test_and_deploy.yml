@@ -30,6 +30,11 @@ jobs:
 
       - name: Build
         run: make build
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: dist
   
   deploy:
     needs: test_and_build
