@@ -1,3 +1,14 @@
+- name: Tree
+  caption: ETHBrno (Gwei.cz, Web3Privacy Now)
+  addr: "0xA1e2421A68f0208B75ACb0014a69E89b1F7492ea"
+  refs:
+    forum: tree
+    ens: treecz.eth
+    bluesky: tree.gwei.cz
+    twitter: treecz
+    github: burningtree
+    telegram: treecz
+
 - name: Afri
   caption: ETHBerlin, Protocol Berg (Department of Decentralization)
   refs:
@@ -10,15 +21,23 @@
     twitter: hyperalchemy
     github: hyperlachemy
 
+- name: Wesley
+  caption: Devcon (Ethereum Foundation)
+  refs:
+    twitter: wslyvh
+    github: wslyvh
+
+- name: Limone
+  caption: ETHRome (urbe.eth)
+  refs:
+    forum: limone
+    twitter: limone_eth
+    github: limone-eth
+
 - name: Chris
   refs:
     twitter: chrishobcroft
     github: chrishobcroft
-
-- name: Erica Kang
-  caption: ETHSeoul, BUIDL Asia (KryptoSeoul)
-  refs:
-    twitter: ekang426
 
 - name: Eléonore
   caption: ETHDam (CryptoCanal)
@@ -30,13 +49,6 @@
   refs:
     twitter: juandaveth
     github: juandaveth
-
-- name: Limone
-  caption: ETHRome (urbe.eth)
-  refs:
-    forum: limone
-    twitter: limone_eth
-    github: limone-eth
 
 - name: Manu Alzuru
   caption: ETHBarcelona (DoinGud)
@@ -55,18 +67,13 @@
     twitter: PG_CDG
     github: EclecticSamurai
 
-- name: Tree
-  caption: ETHBrno (Gwei.cz, Web3Privacy Now)
-  addr: "0xA1e2421A68f0208B75ACb0014a69E89b1F7492ea"
+- name: Erica Kang
+  caption: ETHSeoul, BUIDL Asia (KryptoSeoul)
   refs:
-    forum: tree
-    ens: treecz.eth
-    twitter: treecz
-    bluesky: tree.gwei.cz
-    github: burningtree
+    twitter: ekang426
 
-- name: Wesley
-  caption: Devcon (Ethereum Foundation)
+- name: Conor Brady
+  caption: EthereumSP (Ethereum Brasil)
   refs:
-    twitter: wslyvh
-    github: wslyvh
+    twitter: Conordb
+    telegram: conordb

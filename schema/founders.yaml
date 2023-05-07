@@ -24,13 +24,16 @@ items:
           pattern: ^[A-Za-z0-9_-]+$
         twitter:
           type: string
-          pattern: ^[A-Za-z0-9_]+$
+          pattern: ^[a-zA-Z][a-zA-Z0-9_]{0,14}$
         github:
           type: string
-          pattern: ^[A-Za-z0-9_-]+$
+          pattern: ^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}[a-zA-Z0-9]$
         bluesky:
           type: string
           pattern: ^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\.)+[A-Za-z]{2,6}$
         ens:
           type: string
           pattern: ^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\.)+[A-Za-z]{2,6}$
+        telegram:
+          type: string
+          pattern: ^[a-zA-Z][a-zA-Z0-9_]{4,31}$
