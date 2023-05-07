@@ -1,5 +1,5 @@
 $schema: http://json-schema.org/draft-07/schema#
-$id: https://core.ethevents.club/schema/founders.yaml
+$id: https://core.ethevents.club/schema/founders.json
 title: EthereumEG Founders
 type: array
 items:
