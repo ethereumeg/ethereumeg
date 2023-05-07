@@ -49,10 +49,13 @@ jobs:
   docs-rebuid:
     needs: deploy
     runs-on: ubuntu-latest
+    environment:
+      name: docs-trigger
     steps:
       - name: Trigger Workflow
         uses: actions/github-script@v6
         with:
+          github-token: ${{ secrets.PAT_TOKEN }}
           script: |
             github.rest.actions.createWorkflowDispatch({
               owner: 'ethereumeg',
