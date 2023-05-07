@@ -16,6 +16,9 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
+      
+      - name: Install deps
+        run: make test
 
-      - name: Test Deno
+      - name: Test ethereumeg
         run: make test
