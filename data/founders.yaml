@@ -1,0 +1,58 @@
+- name: Afri
+  events: ETHBerlin, Protocol Berg (Department of Decentralization)
+  links:
+    twitter: q9fcc
+
+- name: Ceci
+  events: ETHPrague
+  links:
+    twitter: hyperalchemy
+
+- name: Chris
+  links:
+    twitter: chrishobcroft
+
+- name: Erica Kang
+  events: ETHSeoul, BUIDL Asia (KryptoSeoul)
+  links:
+    twitter: ekang426
+
+- name: Eléonore
+  events: ETHDam (CryptoCanal)
+  links:
+    twitter: blockblanc
+
+- name: Juan David
+  events: Devcon (Ethereum Foundation)
+  links:
+    twitter: juandaveth
+
+- name: Limone
+  events: ETHRome (urbe.eth)
+  links:
+    twitter: limone_eth
+
+- name: Manu Alzuru
+  events: ETHBarcelona (DoinGud)
+  links:
+    twitter: manualzuru
+
+- name: matlemad
+  events: ETHTurin
+  links:
+    github: Matlemad
+
+- name: PG
+  events: ETHRome (urbe.eth, Web3Privacy Now)
+  links:
+    twitter: PG_CDG
+
+- name: Tree
+  events: ETHBrno (Gwei.cz, Web3Privacy Now)
+  links:
+    twitter: treecz
+
+- name: Wesley
+  events: Devcon (Ethereum Foundation)
+  links:
+    twitter: wslyvh
