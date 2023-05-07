@@ -46,3 +46,17 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
       
+  docs-rebuid:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Workflow
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: 'ethereumeg',
+              repo: 'docs',
+              workflow_id: 'deploy.yml',
+              ref: 'main',
+            })
