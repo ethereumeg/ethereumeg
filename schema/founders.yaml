@@ -1,0 +1,18 @@
+$schema: http://json-schema.org/draft-07/schema#
+$id: https://raw.githubusercontent.com/ethereumeg/ethereumeg/main/schema/founders.json
+title: EthereumEG Founders
+type: array
+items:
+  type: object
+  additionalProperties: false
+  required:
+    - name
+  properties:
+    name:
+      type: string
+    events:
+      type: string
+    orgs:
+      type: string
+    links:
+      type: object
