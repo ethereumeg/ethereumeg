@@ -1,58 +1,61 @@
 - name: Afri
-  events: ETHBerlin, Protocol Berg (Department of Decentralization)
-  links:
+  caption: ETHBerlin, Protocol Berg (Department of Decentralization)
+  refs:
     twitter: q9fcc
 
 - name: Ceci
-  events: ETHPrague
-  links:
+  caption: ETHPrague
+  refs:
     twitter: hyperalchemy
 
 - name: Chris
-  links:
+  refs:
     twitter: chrishobcroft
 
 - name: Erica Kang
-  events: ETHSeoul, BUIDL Asia (KryptoSeoul)
-  links:
+  caption: ETHSeoul, BUIDL Asia (KryptoSeoul)
+  refs:
     twitter: ekang426
 
 - name: Eléonore
-  events: ETHDam (CryptoCanal)
-  links:
+  caption: ETHDam (CryptoCanal)
+  refs:
     twitter: blockblanc
 
 - name: Juan David
-  events: Devcon (Ethereum Foundation)
-  links:
+  caption: Devcon (Ethereum Foundation)
+  refs:
     twitter: juandaveth
 
 - name: Limone
-  events: ETHRome (urbe.eth)
-  links:
+  caption: ETHRome (urbe.eth)
+  refs:
     twitter: limone_eth
 
 - name: Manu Alzuru
-  events: ETHBarcelona (DoinGud)
-  links:
+  caption: ETHBarcelona (DoinGud)
+  refs:
     twitter: manualzuru
 
 - name: matlemad
-  events: ETHTurin
-  links:
+  caption: ETHTurin
+  refs:
     github: Matlemad
 
 - name: PG
-  events: ETHRome (urbe.eth, Web3Privacy Now)
-  links:
+  caption: ETHRome (urbe.eth, Web3Privacy Now)
+  refs:
     twitter: PG_CDG
 
 - name: Tree
-  events: ETHBrno (Gwei.cz, Web3Privacy Now)
-  links:
+  caption: ETHBrno (Gwei.cz, Web3Privacy Now)
+  addr: "0xA1e2421A68f0208B75ACb0014a69E89b1F7492ea"
+  refs:
+    ens: treecz.eth
     twitter: treecz
+    bluesky: tree.gwei.cz
 
 - name: Wesley
-  events: Devcon (Ethereum Foundation)
-  links:
+  caption: Devcon (Ethereum Foundation)
+  refs:
     twitter: wslyvh

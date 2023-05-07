@@ -10,9 +10,24 @@ items:
   properties:
     name:
       type: string
-    events:
+    caption:
       type: string
-    orgs:
+    addr:
       type: string
-    links:
+      pattern: ^0x[a-fA-F0-9]{40}$
+    refs:
       type: object
+      additionalProperties: false
+      properties:
+        twitter:
+          type: string
+          pattern: ^[A-Za-z0-9_]+$
+        github:
+          type: string
+          pattern: ^[A-Za-z0-9_]+$
+        bluesky:
+          type: string
+          pattern: ^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\.)+[A-Za-z]{2,6}$
+        ens:
+          type: string
+          pattern: ^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\.)+[A-Za-z]{2,6}$
