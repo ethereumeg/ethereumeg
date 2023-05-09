@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+      "https://core.ethevents.club/schema/founders.json": "data/founders.yaml",
+      "https://core.ethevents.club/schema/index.json": "data/index.yaml",
+    }
+  }

@@ -20,7 +20,7 @@ for await (const f of Deno.readDir(DATA_DIR)) {
 
   Deno.test(`${f.name}`, () => {
     if (!validator(data)) {
-      throw validator.errors;
+      throw [f.name, validator.errors];
     }
   });
 }
