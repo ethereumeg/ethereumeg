@@ -1,5 +1,13 @@
+name: Ethereum Event Gardeners
+shortname: EthereumEG
+abbreviations:
+  - EthereumEG
+  - EEG
 links:
+  web: https://docs.ethevents.club
   docs: https://docs.ethevents.club
   forum: https://ethevents.club
   twitter: https://twitter.com/EthereumEG
   telegram: https://t.me/EthereumEG
+  luma: https://lu.ma/ethereumeg
+  github: https://github.com/ethereumeg

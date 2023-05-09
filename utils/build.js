@@ -19,6 +19,7 @@ for await (const f of Deno.readDir(DATA_DIR)) {
   const [_, col] = f.name.match(/^(.+)\.yaml$/);
   output[col] = await importYamlFile(f.name);
 }
+output.time = new Date().toISOString();
 
 await emptyDir(OUTPUT_DIR);
 const outputFile = posix.join(OUTPUT_DIR, "index.json");
