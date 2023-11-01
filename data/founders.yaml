@@ -96,8 +96,9 @@
 - name: ligi
   caption: Devcon(nect), ETHBerlin, Protocol Berg (Department of Decentralization)
   refs:
-    twitter: mr_ligi
+    web: https://ligi.de
     github: ligi
     farcaster: ligi
     bluesky: ligi.de
     mastodon: ligi@chaos.social
+    twitter: mr_ligi
