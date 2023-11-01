@@ -92,3 +92,12 @@
     github: avalidurl
     farcaster: gokhan
     bluesky: 0xgokhan.bsky.social
+
+- name: ligi
+  caption: Devcon(nect), ETHBerlin, Protocol Berg (Department of Decentralization)
+  refs:
+    twitter: mr_ligi
+    github: ligi
+    farcaster: ligi
+    bluesky: ligi.de
+    mastodon: ligi@chaos.social
